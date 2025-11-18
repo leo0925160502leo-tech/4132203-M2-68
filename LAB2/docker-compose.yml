@@ -1,0 +1,10 @@
+services:
+ web:
+   image: nginx
+   ports:
+    -8000:80
+   valumes:
+    -./html:/usr/share/nginx/html
+    
+
+
